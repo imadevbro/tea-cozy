@@ -44,8 +44,8 @@ nav ul {
 }
 
 .jumbotron {
-    width: 1200px;
-    height: 700px;
+    flex-basis: 1200px;
+    min-height: 700px;
     background-image: url(../images/img-mission-background.jpg);
     background-color: none;
     display: flex;
@@ -113,6 +113,7 @@ h1, h2, h3, h4 {
 
 .location-bg h2 {
     background-color: transparent;
+    padding-top: 50px;
 }
 
 .locations-container {
@@ -129,5 +130,18 @@ h1, h2, h3, h4 {
 
 .location-card h4, .location-card h5 {
     padding: 15px;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: left;
+    padding: 20px;
 }
 
