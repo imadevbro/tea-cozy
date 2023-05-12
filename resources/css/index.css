@@ -1,0 +1,133 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    position: fixed;
+    height: 69px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 0px 10px;
+    z-index: 10;
+    background-color: black;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav ul {
+    padding-right: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-padding {
+    padding-top: 69px;
+}
+
+.jumbotron {
+    width: 1200px;
+    height: 700px;
+    background-image: url(../images/img-mission-background.jpg);
+    background-color: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-title {
+    width: 100%;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+    padding: 10px;
+}
+
+#featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.tea-container img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-card {
+    padding: 10px;
+}
+
+#locations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location-bg {
+    max-width: 1200px;
+    width: 100%;
+    flex-basis: 500px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-bg h2 {
+    background-color: transparent;
+}
+
+.locations-container {
+    display: flex;
+    background-color: transparent;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.location-card {
+    width: 300px;
+    margin: 20px;
+}
+
+.location-card h4, .location-card h5 {
+    padding: 15px;
+}
+
